@@ -1,0 +1,65 @@
+header {
+  background-color: #fff;
+  padding-bottom: 10;
+}
+
+header .container-fluid {
+  padding: 5px;
+}
+
+header .container-fluid .row {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+
+.titulo-bienvenida .container-fluid {
+  background-color: #fff;
+  max-width: 80%;
+  -webkit-box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.presentacion-main .container-fluid {
+  padding-bottom: 5px;
+}
+
+.parrafos-main {
+  padding-top: 5px;
+}
+
+.parrafos-main .container-fluid .row {
+  max-width: 100%;
+  -webkit-box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.portafolio {
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.portafolio .container {
+  padding-right: 4px;
+}
+
+.portafolio .container .display-4 {
+  padding-top: 5px;
+}
+
+.portafolio .container .display-4 .container-fluid {
+  padding-bottom: 10px;
+  border: 5px;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=Estilos.css.map */
+
+/*# sourceMappingURL=Estilos.css.map */

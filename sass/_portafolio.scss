@@ -1,0 +1,16 @@
+.portafolio{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    .container{
+        padding-right: 4px;
+        .display-4{
+            padding-top: 5px;
+            .container-fluid{
+                padding-bottom: 10px;
+                border: 5px;
+                margin: 5px;
+            }
+        }
+    }
+}
