@@ -8,37 +8,36 @@
     <meta name="description" content="this is a website that contains economic tips">
     <meta name="keywords" content="economic, coin, money, financier, tips, ">
     <title>Economia tecno</title>
-    <link rel="stylesheet" href="../css/Estilos.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- link css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
 </head>
-
+<!-- sass --watch sass:css-->
 <body>
-    <div class="container-fluid ">
 
-        <header>
+       <header>
             <!-- barra de navegacion -->
-            <div class="container-fluid">
+            <div class="container-fluid bg-dark">
 
-                <div class="row justify-content-end">
+                <div class="row" id="navbar">
 
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link disabled text-dark">Economia tecno</a>
+                            <a class="nav-link disabled "><h3>Economia tecno</h3></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active " href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="blog.html">Blog</a>
+                            <a class="nav-link active" href="Views/blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="Contacto.html">Contacto</a>
+                            <a class="nav-link active" href="Views/Contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="productos.html">Productos</a>
+                            <a class="nav-link active" href="Views/productos.html">Productos</a>
                         </li>
                     </ul>
 
@@ -49,38 +48,37 @@
         <main>
 
 
-            <section class="titulo-bienvenida">
+            <section class="titulo-bienvenida ">
                 <!-- Titulo pagina -->
-                <div class="container-fluid">
-                    <div class="row justify-content-center">
-                        <div class="display-1 text-center">Economia Tecno</div>
+                <div class="container-fluid" >
+                    <div class="row" id="titulo-pagina">
+                        <div class="display-1 ">Economia Tecno</div>
                     </div>
                 </div>
             </section>
-
-            <hr>
 
             <!-- presentacion -->
             <section class="presentacion-main">
 
                 <div class="container-fluid">
+
                     <div class="row">
+
+
                         <div class="col-12 .col-sm-12 col-md-12">
-                            <div class="display-3 text-center">Nuestro Objetivo</div>
+                            <div class="display-3 " id="objetivo">Nuestro Objetivo</div>
                         </div>
-
-
 
 
                         <div class="col-lg-6 .col-sm-12 col-md-12 " id>
-                            <img src="../imagen/ilustracion-concepto-plan-negocios_114360-1487.jpg" alt=""
+                            <img src="imagen/ilustracion-concepto-plan-negocios_114360-1487.jpg" alt=""
                                 class="imagen-negocio ">
                         </div>
 
-                        <div class="col-lg-6 .col-sm-12 col-md-6 ">
+                        <div class="col-lg-6 .col-sm-12 col-md-12 ">
                             <!-- PRIMER PARRAFO -->
 
-                            <div class="display-4 text-center" id="parrafo1">Nuestro plan</div>
+                            <div class="display-4" id="parrafo1">Nuestro plan</div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi veritatis
                                 quibusdam
                                 omnis
@@ -97,7 +95,7 @@
 
                             <!-- SEGUNDO PARRAFO -->
 
-                            <div class="display-4 text-center" id="parrafo2">Porque confiar en nosotros!
+                            <div class="display-4" id="parrafo2">Porque confiar en nosotros!
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellat
                                 in
@@ -114,12 +112,11 @@
                                 dicta?
                             </p>
 
-
                         </div>
                     </div>
                 </div>
-    </div>
-    </div>
+             </div>
+        </div>
     </section>
 
 
@@ -127,21 +124,21 @@
     <section class="portafolio">
 
         <!-- Portafolio galeria-->
-        <div class="container-fluid bg-dark text-white">
+        <div class="container-fluid " id="portafolio">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12" id="carrousel-img">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../imagen/Tablets-economia.jpg" class="img-carrousel d-block w-100 mb-4 pt-4 "
+                                <img src="imagen/Tablets-economia.jpg" class="img-carrousel d-block"
                                     alt="imagen-economia">
                             </div>
                             <div class="carousel-item">
-                                <img src="../imagen/economía.jpg" class="img-carrousel d-block w-100 mb-4 pt-4"
+                                <img src="imagen/economía.jpg" class="img-carrousel d-block"
                                     alt="imagen-economia">
                             </div>
                             <div class="carousel-item">
-                                <img src="../imagen/Carrusel.jpg" class="img-carrousel d-block w-100 mb-4 pt-4"
+                                <img src="imagen/Carrusel.jpg" class="img-carrousel d-block"
                                     alt="imagen-economia">
                             </div>
                         </div>
@@ -157,8 +154,8 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="display-2 text-center">Portafolio</div>
+                <div class="col-lg-6 col-md-12 col-sm-12" id="text-portafolio">
+                    <div class="display-2 text-center" id="titulo-portafolio">Portafolio</div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi distinctio aspernatur odio
                         repellat aliquid error ipsa illo illum optio omnis facilis quos, ducimus voluptatibus labore
                         voluptatum eius exercitationem voluptate? Iusto voluptatum aliquid, vel eaque nihil dolorum
@@ -192,10 +189,10 @@
 
     <!-- Opiniones -->
 
-    <section>
+    <section class="opiniones">
 
-        <div class="container-fluid py-5 ">
-            <div class="display-4 text-center py-5">Opiniones </div>
+        <div class="container-fluid ">
+            <div class="display-4">Opiniones </div>
             <!--contenedor de fotos y comentarios -->
             <div class="row">
 
@@ -203,13 +200,13 @@
                     <!-- columnas -->
                     <div class="row">
                         <div class="col-lg-6 col-md-12 col-sm-12">
-                            <img src="../imagen/49e04edd6bb443f3d108960c171c0747.jpg" align="center " alt="chico-loco"
+                            <img src="imagen/49e04edd6bb443f3d108960c171c0747.jpg" align="center " alt="chico-loco"
                                 class="img-opinion">
                         </div>
                         <!--text-->
                         <div class="col-lg-6 col-md-12 col-sm-12">
-                            <h4 class="text-center">Chico random</h4>
-                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, eius
+                            <h4 class="text-opinion">Chico random</h4>
+                            <p class="text-opinion">Lorem isum dolor sit amet consectetur adipisicing elit. Quos, eius
                                 facere
                                 voluptatum
                                 veritatis impedit ipsum itaque ratione animi dignissimos deserunt corrupti et fugit
@@ -225,12 +222,12 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 py-5">
                     <div class="row">
                         <div class="col-lg-6 col-md-12 col-sm-12">
-                            <img src="../imagen/tumblr_7442770b6f577538486a227b4f5ab570_ab1fd624_400.jpg"
+                            <img src="imagen/tumblr_7442770b6f577538486a227b4f5ab570_ab1fd624_400.jpg"
                                 alt="chica-loca" class="img-opinion">
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12">
-                            <h4 class="text-center">Chica X</h4>
-                            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            <h4 class="text-opinion">Chica X</h4>
+                            <p class="text-opinion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 Repellendus omnis quibusdam dignissimos at quos nemo,
                                 qui obcaecati mollitia adipisci excepturi corrupti debitis quas explicabo quod
                                 consectetur odit, animi architecto?</p>
@@ -241,35 +238,35 @@
             <!--final de columnas opiniones-->
         </div>
 
-
     </section>
 
     </main>
 
 
     <footer>
+ 
 
         <!-- footer-->
-        <div class="container-fluid bg-dark text-white">
-            <div class="container-fluid text-center">
+       
+            <div class="container-fluid py" id="footer">
                 <div class="row">
 
-                    <div class="col-lg-2 col-12-sm col-md-12 border-left border-right">
+                    <div class="box-footer  col-lg-2 col-12-sm col-md-12  border-left border-right">
                         <h4>Numero Telefonico</h4>
                         <p>+(22) 2389214/ (+56) 9-32439847</p>
                     </div>
 
-                    <div class="col-lg-4 col-12-sm col-md-12 border-left border-right">
+                    <div class="box-footer col-lg-4 col-12-sm col-md-12  border-left border-right">
                         <h4>Correo Electronico</h4>
                         <p>ramirez.ruiz.eliezer.reuven@gmail.com</p>
                     </div>
 
-                    <div class="col-lg-2 col-sm-12 col-md-12 border-left border-right ">
+                    <div class="box-footer col-lg-2 col-sm-12 col-md-12 border-left border-right ">
                         <h4>Oficina</h4>
                         <p> av. tutan camon con esq. patata, Santiago de Chile</p>
                     </div>
 
-                    <div class="col-lg-4 border-left border-right">
+                    <div class="box-footer col-lg-4 border-left border-right">
                         <!--Redes sociales -->
                             <h2 class="titulo-redesSociales text-center">Nuestros Canales</h2>
 
@@ -330,7 +327,7 @@
 
 
                             </div>
-                            <div class="row col-12 justify-content-center pt-2">
+                            <div class="row col-12 justify-content-center pt-3">
                                 <p>nuestros canales antes cualquier duda o problema</p>
                             </div>
 
@@ -341,11 +338,10 @@
 
 
                 </div>
-
-            </div>
+            
+            
     </footer>
-    </div>
-
+    
 
     <!--Link Js-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

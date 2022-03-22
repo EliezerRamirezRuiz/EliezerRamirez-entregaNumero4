@@ -1,0 +1,58 @@
+/*header index */
+
+body{
+    background-color: black;
+    #navbar{
+        padding-top: 1rem;
+        background-color: black;
+        display: flex;
+        justify-content: end;
+        color: white;
+        box-shadow:  5px 3px rgba(247, 99, 0, 0.5);
+        .nav-link{
+            color: orangered;
+        }
+    }
+}
+
+.imagen-negocio{
+    height: 100%;
+    width: 100%;
+}
+.imagen-ayuda{
+    height: 90%;
+    width: 90%;
+}
+.img-carrousel{
+    height: 600px;
+}
+
+
+.img-soporte{
+    height: 250px;
+    width: 300px;
+}
+
+.imagen-tiempo{
+    height: 100%;
+    width: 100%;
+}
+
+.portafolio{
+    background-color: purple;
+    color: white;
+
+    .img-carrousel{
+        width: 400;
+        height: 400;
+        margin-bottom: 4rem;
+        padding-top: 4rem;
+    }
+
+    #text-portafolio{
+        background-color: aqua;
+        #titulo-portafolio{
+            background-color: yellow;
+        }
+    }
+}

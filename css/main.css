@@ -1,0 +1,64 @@
+/*index.html*/
+.titulo-bienvenida {
+  box-shadow: 5px 3px rgba(5, 5, 5, 0.5);
+  padding-top: 0.5rem;
+}
+.titulo-bienvenida #titulo-pagina {
+  display: flex;
+  justify-content: center;
+}
+
+.presentacion-main {
+  background-color: darkorange;
+  padding-top: 2rem;
+}
+.presentacion-main #objetivo {
+  display: flex;
+  justify-content: start;
+  padding-left: 4rem;
+}
+.presentacion-main #parrafo1 {
+  text-align: center;
+}
+.presentacion-main #parrafo2 {
+  text-align: center;
+}
+
+/* galeria */
+.portafolio {
+  padding-top: rem;
+  padding-bottom: 0.5rem;
+  background-color: black;
+}
+.portafolio #carrousel-img {
+  background-color: greenyellow;
+}
+.portafolio #text-portafolio {
+  background-color: green;
+}
+.portafolio #text-portafolio #titulo-portafolio {
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 0.1rem;
+  border-color: #000;
+  border-style: solid;
+}
+
+/*opiniones*/
+.container-fluid {
+  padding-top: 0.5rem;
+}
+.container-fluid .display-4 {
+  text-align: center;
+}
+.container-fluid .img-opinion {
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.container-fluid .text-opinion {
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
